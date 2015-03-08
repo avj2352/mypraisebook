@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Video as Background</title>
+</head>
+<body>
+	<video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<source src="videos/EternalCompressed.mp4" type="video/mp4">
+</video>
+<div id="polina">
+<h1>Praise Adonai</h1>
+<p><small>Song by: Paul Wilbur | Link:<a href="https://www.youtube.com/watch?v=yh9VVdfyNLk" target="_blank">Youtube Link</a></small></p>
+<p><small>Bridge:</small><pre>
+	Praise Adonai
+	From the Rising of the Sun
+	To the End of every day
+	Praise Adonai
+	All the nations of the Earth
+	All the angels and the saints sing praise
+</pre></p>
+<p><small>Stanza:</small><pre>
+	Who is Like Him
+	Lion and the Lamb
+	Seated on the Throne
+	Mountains bow down
+	Every Ocean Roars
+	To the Lord of Hosts
+</pre></p>
+<button>Pause</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
